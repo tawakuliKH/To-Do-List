@@ -7,18 +7,22 @@ const tasks = [
   {
     desc: 'Wash the dishes',
     completed: false,
+    index: 1,
   },
   {
     desc: 'Complete The Microverse',
     completed: false,
+    index: 2,
   },
   {
     desc: 'Go to a travel',
     completed: false,
+    index: 3,
   },
   {
     desc: 'Find a good job',
     completed: false,
+    index: 4,
   },
 ];
 const items = document.querySelector('.items');
