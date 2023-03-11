@@ -102,6 +102,7 @@ After you're finished please remove all the comments and instructions!
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
+- [Live Demo Link](https://tawakulikh.github.io/To-Do-List/dist/index.html)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -114,7 +115,8 @@ To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
-In order to run this project you need:
+In order to run this project you need to :
+1- install node.js and npm
 
 <!--
 Example command:
@@ -133,6 +135,11 @@ Clone this repository to your desired folder:
 ```sh
   cd my-folder
   git clone git@github.com:tawakuliKH/To-Do-List.git
+  cd To-Do-List
+  npm install webpack webpack-cli --save-dev
+  npm install --save lodash
+  npm install --save-dev html-webpack-plugin
+  npm install file-loader
 ```
 
 
@@ -156,13 +163,14 @@ To run the project, execute the following command:
 
 
 ```sh
+  npm run build
   npm start
 ```
 
 
 ### Run tests
 
-To run tests, run the following command:
+No Tests Necessary.
 
 <!--
 Example command:
@@ -174,7 +182,7 @@ Example command:
 
 ### Deployment
 
-You can deploy this project using:
+
 
 <!--
 Example:
